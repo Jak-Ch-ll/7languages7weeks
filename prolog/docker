@@ -1,0 +1,1 @@
+docker run -it --rm --name prolog-container -v "$PWD":/app -w /app swipl swipl $@
